@@ -30,7 +30,7 @@ IT Abteilung/Operations: ITOP
 Zum Beispiel: SW-ITOP (Switch, It Abteilung/Operations)
 
 ## Testprotokoll
-*[Testprotokkoll](image.png)
+![Testprotokkoll](image.png)
 
 ## Betriebshandbuch
 ### Planung
@@ -42,4 +42,4 @@ Wir begannen mit dem Connecten der Switches. Als erstes hatten wir diese gereset
 Zunächst recherchierten wir, wie wir den DHCP-Server einrichten kann. Als erstes hatten wir den Edge Router geresetet. Anschliessend konfigurierten wir ihn im Browser. Wir nutzten die Range von privaten IPs, in unserem Fall 172er IPs. Auch den DNS richteten wir ein. Anschliessend testeten wir die Verbindung mit dem gegenseitigen Pingen. Dies erfolgte ohne Probleme. Im Anschluss konfigurierten wir auch noch den Access Point. Auch diese erfolgte ohne weitere Probleme. 
 Fazit & Zusammenfassung
 Für das Einrichten des DHCP-Servers sollten nur private IP-Adressen, also bspw. 192er oder 172er Adressen verwendet werden. Dies, da alle anderen abgehört werden können. Das Bestimmen des CIDR-Suffixes in einem Subnetz ist auch wichtig, damit alle benötigten IPs Platz haben. Das Netzwerk wird deshalb auch effizienter genutzt, da dann weniger vorige IPs sind. 
-*[Beispiel]](<image (1).png>)
+[Beispiel]](wireshark.png)
